@@ -1,0 +1,20 @@
+# 依赖
+node_modules/
+
+# 环境配置
+.env
+
+# 上传的文件
+uploads/*
+!uploads/.gitkeep
+
+# 日志
+*.log
+npm-debug.log*
+
+# 运行时数据
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local 
